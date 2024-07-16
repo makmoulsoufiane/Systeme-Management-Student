@@ -1,2 +1,2 @@
 # Systeme-Management-Student
-web application manage student with framework django 
+our web application to manage student in schhool with framework django 

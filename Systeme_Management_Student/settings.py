@@ -74,12 +74,12 @@ WSGI_APPLICATION = 'Systeme_Management_Student.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'system_management_student',   # The name of the database you created
-        'USER': 'user',      # The MySQL user you want to use
-        'PASSWORD': 'password', # Password for the MySQL user
-        'HOST': 'localhost',            # Typically 'localhost'
-        'PORT': '3306',                 # Default MySQL port
+        'USER': 'root',      # The MySQL user you want to use
+        'PASSWORD': '', # Password for the MySQL user
+        'HOST': '127.0.0.1',            # Typically 'localhost'
+        'PORT': '',                 # Default MySQL port
     }
 }
 

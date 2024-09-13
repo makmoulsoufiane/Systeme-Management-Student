@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Group.apps.GroupConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -73,6 +74,13 @@ WSGI_APPLICATION = 'Systeme_Management_Student.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -80,6 +88,12 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': '',
         'HOST':'127.0.0.1',
+        'PORT': '3306',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Systeme_Management_Student',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }

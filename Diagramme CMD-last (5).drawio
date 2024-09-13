@@ -1,6 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="r7um1j5F53xWlEHFAw9k" name="MCD">
+<<<<<<< HEAD
+        <mxGraphModel dx="1586" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+=======
         <mxGraphModel dx="1658" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+>>>>>>> d864de4bccc0d2c9420070f8905e8d744e6bbd65
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -240,7 +244,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Sx__AM7tNyRv9mXKaYxe" name="MLD">
-        <mxGraphModel dx="2368" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1586" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
